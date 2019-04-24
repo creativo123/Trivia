@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textbox"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/item_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Keval Choudhary"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/item_display_q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Question: "
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@id/item_display_name" />
+
+    <TextView
+        android:id="@+id/item_display_a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Answer: "
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@id/item_display_q1" />
+
+
+    <TextView
+        android:id="@+id/item_display_q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Question: "
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@id/item_display_a1" />
+
+    <TextView
+        android:id="@+id/item_display_a2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Answer: "
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@id/item_display_q2" />
+
+
+</android.support.constraint.ConstraintLayout>
